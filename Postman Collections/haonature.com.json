@@ -29,7 +29,7 @@
   "Endpoints": [],
   "CustomTypes": [],
   "CodeGenSettings": {
-    "SynchronyMode": 0,
+    "SynchronyMode": "Asynchronous",
     "ModelSerializationScheme": "Json",
     "ArraySerialization": "Indexed",
     "Nullify404": false,
@@ -58,7 +58,7 @@
     "AppendContentHeaders": true,
     "GenerateInterfaces": false,
     "UseCommonSDKLibrary": false,
-    "ParameterArrayFormat": 2,
+    "ParameterArrayFormat": "ParamArrayWithIndex",
     "SecurityProtocols": [
       "Ssl3",
       "Tls"
