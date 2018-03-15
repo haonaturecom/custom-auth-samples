@@ -24,7 +24,8 @@
     "Type": "None",
     "AuthType": "None",
     "Parameters": [],
-    "Scopes": []
+    "Scopes": [],
+    "ParamFormats": {}
   },
   "Endpoints": [],
   "CustomTypes": [],
@@ -74,7 +75,8 @@
     "GenerateAdvancedDocs": true,
     "StoreTimezoneInformation": false,
     "UnderscoreNumbers": true,
-    "UseSingletonPattern": true
+    "UseSingletonPattern": true,
+    "IgnoreIfNullJson": false
   },
   "Errors": [],
   "TestGenSettings": {
