@@ -1,21 +1,34 @@
 {
   "Name": "haonature.com",
-  "BaseUri": "http://example.com",
+  "BaseUri": "http://www.example.com",
   "ServerConfiguration": {
     "DefaultEnvironment": "production",
-    "DefaultServer": "Server 1",
+    "DefaultServer": "default",
     "Environments": [
       {
         "Name": "production",
         "Servers": [
           {
-            "Name": "Server 1",
-            "Url": "http://example.com"
+            "Name": "default",
+            "Url": "{defaultServerUrl}"
           }
         ]
       }
     ],
-    "Parameters": []
+    "Parameters": [
+      {
+        "Optional": true,
+        "Type": "String",
+        "Constant": false,
+        "IsStream": false,
+        "IsAttribute": false,
+        "Nullable": false,
+        "IsArray": false,
+        "IsMap": false,
+        "Name": "defaultServerUrl",
+        "DefaultValue": "http://www.example.com"
+      }
+    ]
   },
   "Description": "TODO: Add Description",
   "Version": "1.0",
