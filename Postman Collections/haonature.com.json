@@ -87,6 +87,7 @@
     "Retries": 0,
     "RetryInterval": 1.0,
     "GenerateAdvancedDocs": true,
+    "DisableDocs": false,
     "StoreTimezoneInformation": false,
     "UnderscoreNumbers": true,
     "UseSingletonPattern": true,
