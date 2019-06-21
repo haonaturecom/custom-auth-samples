@@ -111,7 +111,13 @@
       "Type": "Simple"
     },
     "ForceKeywordArgsInRuby": false,
-    "SymbolizeHashKeysInRuby": false
+    "SymbolizeHashKeysInRuby": false,
+    "UsageExampleEndpoint": {
+      "Description": "",
+      "EndpointGroupName": "",
+      "EndpointName": ""
+    },
+    "IsLatestVersion": false
   },
   "Errors": [],
   "TestGenSettings": {
