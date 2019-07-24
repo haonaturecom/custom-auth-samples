@@ -124,5 +124,10 @@
     "Configuration": {},
     "TestTimeout": 30,
     "PrecisionDelta": 0.01
+  },
+  "ExportSettings": {
+    "ExportExtensions": false,
+    "UseDateTimeOnlyInRaml": false,
+    "SetPostmanParamValuesAsVariables": false
   }
 }
