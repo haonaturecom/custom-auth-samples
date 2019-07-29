@@ -1,133 +1,131 @@
-{
-  "Name": "haonature.com",
-  "BaseUri": "https://www.example.com",
-  "ServerConfiguration": {
-    "DefaultEnvironment": "production",
-    "DefaultServer": "default",
-    "Environments": [
-      {
-        "Name": "production",
-        "Servers": [
-          {
-            "Name": "default",
-            "Url": "https://{defaultHost}"
-          }
-        ]
-      }
-    ],
-    "Parameters": [
-      {
-        "Optional": true,
-        "Type": "String",
-        "IsSdlNativeType": true,
-        "Constant": false,
-        "IsStream": false,
-        "IsAttribute": false,
-        "Nullable": false,
-        "IsArray": false,
-        "IsMap": false,
-        "Deprecated": false,
-        "Name": "defaultHost",
-        "DefaultValue": "www.example.com"
-      }
-    ]
-  },
-  "Description": "TODO: Add Description",
-  "Version": "1.0",
-  "Contact": {},
-  "AdditionalHeaders": [],
-  "Authentication": {
-    "Type": "None",
-    "AuthType": "None",
-    "Parameters": [],
-    "Scopes": [],
-    "ParamFormats": {}
-  },
-  "Endpoints": [],
-  "EndpointGroups": [],
-  "CustomTypes": [],
-  "CodeGenSettings": {
-    "SynchronyMode": "Asynchronous",
-    "ModelSerializationScheme": "Json",
-    "ArraySerialization": "Indexed",
-    "Nullify404": false,
-    "UseHttpMethodPrefix": true,
-    "UseModelPrefix": false,
-    "UseExceptionPrefix": true,
-    "UseEnumPrefix": true,
-    "UseControllerPrefix": true,
-    "UseConstructorsForConfig": false,
-    "Timeout": 0.0,
-    "AndroidUseAppManifest": false,
-    "iOSUseAppInfoPlist": false,
-    "iOSGenerateCoreData": false,
-    "CollapseParamsToArray": false,
-    "RunscopeEnabled": false,
-    "AndroidHttpClient": "ANDROID_OK",
-    "JavaHttpClient": "JAVA_OK",
-    "ObjCHttpClient": "UNIREST",
-    "CSharpHttpClient": "UNIREST",
-    "NodeHttpClient": "NODE_REQUEST",
-    "JavaUsePropertiesConfig": false,
-    "PHPHttpClient": "UNIREST",
-    "EnablePHPComposerVersionString": false,
-    "EnableGlobalUserAgent": true,
-    "EnableAdditionalModelProperties": false,
-    "PreserveParameterOrder": true,
-    "ValidateRequiredParameters": false,
-    "AppendContentHeaders": true,
-    "GenerateInterfaces": false,
-    "UseCommonSDKLibrary": false,
-    "ParameterArrayFormat": "ParamArrayWithIndex",
-    "SecurityProtocols": [
-      "Ssl3",
-      "Tls"
-    ],
-    "GenerateTravisConfig": false,
-    "GenerateCircleConfig": false,
-    "GenerateAppveyorConfig": false,
-    "GenerateJenkinsConfig": false,
-    "EnableLogging": false,
-    "EnableHttpCache": false,
-    "Retries": 0,
-    "RetryInterval": 1.0,
-    "GenerateAdvancedDocs": true,
-    "DisableDocs": false,
-    "StoreTimezoneInformation": false,
-    "UnderscoreNumbers": true,
-    "UseSingletonPattern": true,
-    "IgnoreIfNullJson": false,
-    "DisableLinting": false,
-    "SortResources": false,
-    "LiftParameterDescriptionFromCustomType": false,
-    "AllowSkippingSSLCertVerification": false,
-    "ApplyCustomizations": [],
-    "DoNotSplitWords": [],
-    "ReturnCompleteHttpResponse": false,
-    "ThrowForHttpErrorStatusCodes": true,
-    "GenerateModels": true,
-    "GenerateExceptions": true,
-    "ResponseMapping": {
-      "Type": "Simple"
-    },
-    "ForceKeywordArgsInRuby": false,
-    "SymbolizeHashKeysInRuby": false,
-    "UsageExampleEndpoint": {
-      "Description": "",
-      "EndpointGroupName": "",
-      "EndpointName": ""
-    },
-    "IsLatestVersion": false
-  },
-  "Errors": [],
-  "TestGenSettings": {
-    "Configuration": {},
-    "TestTimeout": 30,
-    "PrecisionDelta": 0.01
-  },
-  "ExportSettings": {
-    "ExportExtensions": false,
-    "UseDateTimeOnlyInRaml": false,
-    "SetPostmanParamValuesAsVariables": false
-  }
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>APIMATIC - Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+    
+
+    
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.3/toastr.min.css" rel="stylesheet" />
+<link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/jquery.scrollbar/0.2.11/jquery.scrollbar.min.css"
+          integrity="sha256-nVXk5aDYc/D4r9OoqxZ5H6vpIAqAG5BhVuIdOihDN1c="
+          crossorigin="anonymous" />
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+<link href="/bundles/front-css?v=5cc8tdDAN86fLsP3hA4mwaeZHhprhYi9JC7-9qiNjdQ1" rel="stylesheet"/>
+
+    <link href="/bundles/onboarding-css?v=OkE3LPqCxZO4VvCfP5gezTWQD3lRyMqFJHasxdy9ECU1" rel="stylesheet"/>
+
+
+    
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+</head>
+<body>
+    <div class="container onboarding-container">
+            <div class="onboarding-container-centered ">
+                
+
+
+
+<header class="flex flex-col align-center">
+    <div class="icon">
+        <a href="/">
+            <img class="mx-auto d-block" alt="APIMATIC logo" title="Welcome to APIMATIC" src="/imgs/apimatic-logo.svg" />
+        </a>
+    </div>
+    <div class="content">
+        <p>Login to your account</p>
+    </div>
+
+</header>
+<section class="form-wrapper flex flex-col">
+
+<form action="/account/login?ReturnUrl=%2Fapi%2Ftransform%3Fformat%3Dapimatic%26apikey%3DmONZg6E9hVHp7-WXsHucCGl-lXLvzN0t9GGEQ_s1xgrILHdXq_d50wEd8ptizzQN" id="loginForm" method="post" novalidate="True" role="form"><input name="__RequestVerificationToken" type="hidden" value="6sV9YZh0k1VuXM5vwzTRr4CBfOFWUjYNJDpDEj5KPslG28sCKY3luWSblDy3QAmKL-rkLfLDydFN9UmxSIdJ2kSVY_W0LTBh25sgh-XzHig1" /><div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>        <div class="form-group">
+            <label class="mb-1" for="signInInputEmail1">
+                Email
+            </label>
+            <input class="form-control form-control-sm" data-Validation="email" data-val="true" data-val-email="The Email Address field is not a valid e-mail address." data-val-required="Email is required" id="Email" name="Email" placeholder="Enter email here" required="required" tabindex="2" type="email" value="" />
+
+        </div>
+        <div class="form-group mb-0">
+            <label class="mb-1" for="signInInputPassword">
+                Password
+            </label>
+            <a class="forgot-password" href="/account/forgotpassword?Length=7">Forgot password?</a>
+            <input class="form-control extra-padding-right" data-title="Caps lock is on" data-toggle="tooltip" data-trigger="manual" data-val="true" data-val-required="Password is required" id="js-onboarding-password-field" name="Password" placeholder="Password" required="true" type="password" />
+            <i class="fa fa-eye onboarding-show-password-icon" id="js-onboarding-show-password-icon"></i>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input class="custom-control-input" data-val="true" data-val-required="The Remember me? field is required." id="customControlInline" name="RememberMe" tabindex="4" type="checkbox" value="true" /><input name="RememberMe" type="hidden" value="false" />
+                Remember me
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-sm btn-block" tabindex="5">
+            Login
+        </button>
+        <a href="/account/register" class="btn btn-white btn-sm btn-block" tabindex="6">
+            Sign Up
+        </a>
+</form></section>
+
+            </div>
+    </div>
+</body>
+</html>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.3/toastr.min.js"></script>
+
+<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>
+
+<script src="/bundles/front-js?v="></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+<script>
+    $.validate({
+        modules: 'date, security'
+    });
+</script>
+<script src="/bundles/onboarding-js?v=2h6We__p_84-tByynY6kDWiE-iuM8Pigjw1rycnNaQY1"></script>
+
+
+
