@@ -1,8 +1,134 @@
 {
-  "info": {
-    "_postman_id": "2483749-1401f1ca-6922-d4f3-d7a5-677aa7b060c1",
-    "name": "haonature.com",
-    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  "Name": "haonature.com",
+  "BaseUri": "https://www.example.com",
+  "ServerConfiguration": {
+    "DefaultEnvironment": "production",
+    "DefaultServer": "default",
+    "Environments": [
+      {
+        "Name": "production",
+        "Servers": [
+          {
+            "Name": "default",
+            "Url": "https://{defaultHost}"
+          }
+        ]
+      }
+    ],
+    "Parameters": [
+      {
+        "Optional": true,
+        "Type": "String",
+        "IsSdlNativeType": true,
+        "Constant": false,
+        "IsStream": false,
+        "IsAttribute": false,
+        "Nullable": false,
+        "IsArray": false,
+        "IsMap": false,
+        "Deprecated": false,
+        "Name": "defaultHost",
+        "DefaultValue": "www.example.com"
+      }
+    ]
   },
-  "item": []
+  "Description": "TODO: Add Description",
+  "Version": "1.0",
+  "Contact": {},
+  "AdditionalHeaders": [],
+  "Authentication": {
+    "Type": "None",
+    "AuthType": "None",
+    "Parameters": [],
+    "Scopes": [],
+    "ParamFormats": {}
+  },
+  "Endpoints": [],
+  "EndpointGroups": [],
+  "CustomTypes": [],
+  "CodeGenSettings": {
+    "SynchronyMode": "Asynchronous",
+    "ModelSerializationScheme": "Json",
+    "ArraySerialization": "Indexed",
+    "Nullify404": false,
+    "UseHttpMethodPrefix": true,
+    "UseModelPrefix": false,
+    "UseExceptionPrefix": true,
+    "UseEnumPrefix": true,
+    "UseControllerPrefix": true,
+    "UseConstructorsForConfig": false,
+    "Timeout": 0.0,
+    "AndroidUseAppManifest": false,
+    "iOSUseAppInfoPlist": false,
+    "iOSGenerateCoreData": false,
+    "CollapseParamsToArray": false,
+    "RunscopeEnabled": false,
+    "AndroidHttpClient": "ANDROID_OK",
+    "JavaHttpClient": "JAVA_OK",
+    "ObjCHttpClient": "UNIREST",
+    "CSharpHttpClient": "UNIREST",
+    "NodeHttpClient": "NODE_REQUEST",
+    "JavaUsePropertiesConfig": false,
+    "PHPHttpClient": "UNIREST",
+    "EnablePHPComposerVersionString": false,
+    "EnableGlobalUserAgent": true,
+    "EnableAdditionalModelProperties": false,
+    "PreserveParameterOrder": true,
+    "ValidateRequiredParameters": false,
+    "AppendContentHeaders": true,
+    "GenerateInterfaces": false,
+    "UseCommonSDKLibrary": false,
+    "ParameterArrayFormat": "ParamArrayWithIndex",
+    "SecurityProtocols": [
+      "Ssl3",
+      "Tls"
+    ],
+    "GenerateTravisConfig": false,
+    "GenerateCircleConfig": false,
+    "GenerateAppveyorConfig": false,
+    "GenerateJenkinsConfig": false,
+    "EnableLogging": false,
+    "EnableHttpCache": false,
+    "Retries": 0,
+    "RetryInterval": 1.0,
+    "GenerateAdvancedDocs": true,
+    "DisableDocs": false,
+    "StoreTimezoneInformation": false,
+    "UnderscoreNumbers": true,
+    "UseSingletonPattern": true,
+    "IgnoreIfNullJson": false,
+    "DisableLinting": false,
+    "SortResources": false,
+    "LiftParameterDescriptionFromCustomType": false,
+    "AllowSkippingSSLCertVerification": false,
+    "ApplyCustomizations": [],
+    "DoNotSplitWords": [],
+    "ReturnCompleteHttpResponse": false,
+    "ThrowForHttpErrorStatusCodes": true,
+    "GenerateModels": true,
+    "GenerateExceptions": true,
+    "ResponseMapping": {
+      "Type": "Simple"
+    },
+    "ForceKeywordArgsInRuby": false,
+    "SymbolizeHashKeysInRuby": false,
+    "UsageExampleEndpoint": {
+      "Description": "",
+      "EndpointGroupName": "",
+      "EndpointName": ""
+    },
+    "IsLatestVersion": false,
+    "EnableImmutableModels": false
+  },
+  "Errors": [],
+  "TestGenSettings": {
+    "Configuration": {},
+    "TestTimeout": 30,
+    "PrecisionDelta": 0.01
+  },
+  "ExportSettings": {
+    "ExportExtensions": false,
+    "UseDateTimeOnlyInRaml": false,
+    "SetPostmanParamValuesAsVariables": false
+  }
 }
