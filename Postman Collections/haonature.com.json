@@ -90,6 +90,8 @@
     "EnableHttpCache": false,
     "Retries": 0,
     "RetryInterval": 1.0,
+    "BackoffFactor": 0.0,
+    "UserConfigurableRetries": true,
     "GenerateAdvancedDocs": true,
     "DisableDocs": false,
     "StoreTimezoneInformation": false,
