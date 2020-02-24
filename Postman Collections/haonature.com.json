@@ -133,6 +133,7 @@
     "ExportExtensions": false,
     "UseDateTimeOnlyInRaml": false,
     "SetPostmanParamValuesAsVariables": false,
-    "WrapResponseFieldInWsdl": true
+    "WrapResponseFieldInWsdl": true,
+    "AllowEmptyTypeAttributesInXsd": false
   }
 }
