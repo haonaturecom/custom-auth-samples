@@ -134,6 +134,7 @@
     "UseDateTimeOnlyInRaml": false,
     "SetPostmanParamValuesAsVariables": false,
     "WrapResponseFieldInWsdl": true,
-    "AllowEmptyTypeAttributesInXsd": false
+    "AllowEmptyTypeAttributesInXsd": false,
+    "WrapInputOutputTypesInElementInXsd": false
   }
 }
