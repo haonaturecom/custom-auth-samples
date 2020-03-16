@@ -45,6 +45,7 @@
   "Endpoints": [],
   "EndpointGroups": [],
   "CustomTypes": [],
+  "UserDefinedImportedTypes": [],
   "CodeGenSettings": {
     "SynchronyMode": "Asynchronous",
     "ModelSerializationScheme": "Json",
