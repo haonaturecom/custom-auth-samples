@@ -122,7 +122,8 @@
     },
     "IsLatestVersion": false,
     "EnableImmutableModels": false,
-    "UseEndpointMethodName": false
+    "UseEndpointMethodName": false,
+    "EncodeTemplateParameters": true
   },
   "Errors": [],
   "TestGenSettings": {
