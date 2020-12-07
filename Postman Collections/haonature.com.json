@@ -126,7 +126,8 @@
     "EnableImmutableModels": false,
     "UseEndpointMethodName": false,
     "EncodeTemplateParameters": true,
-    "GenerateExamplesForOptionalFields": false
+    "GenerateExamplesForOptionalFields": false,
+    "MultitargetDotnetVersions": false
   },
   "Errors": [],
   "TestGenSettings": {
