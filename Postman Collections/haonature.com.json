@@ -27,6 +27,7 @@
         "Nullable": false,
         "IsArray": false,
         "IsMap": false,
+        "IsArrayOfMap": false,
         "Deprecated": false,
         "Name": "defaultHost",
         "DefaultValue": "www.example.com"
