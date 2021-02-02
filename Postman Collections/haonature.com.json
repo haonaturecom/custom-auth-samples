@@ -93,7 +93,23 @@
     "EnableHttpCache": false,
     "Retries": 0,
     "RetryInterval": 1.0,
-    "BackoffFactor": 0.0,
+    "BackoffFactor": 2.0,
+    "StatusCodesToRetry": [
+      408,
+      413,
+      429,
+      500,
+      502,
+      503,
+      504,
+      521,
+      522,
+      524
+    ],
+    "RequestMethodsToRetry": [
+      "GET",
+      "PUT"
+    ],
     "UserConfigurableRetries": true,
     "GenerateAdvancedDocs": true,
     "DisableDocs": false,
@@ -128,7 +144,8 @@
     "UseEndpointMethodName": false,
     "EncodeTemplateParameters": true,
     "GenerateExamplesForOptionalFields": false,
-    "MultitargetDotnetVersions": false
+    "MultitargetDotnetVersions": false,
+    "BackoffMax": 0.0
   },
   "Errors": [],
   "TestGenSettings": {
