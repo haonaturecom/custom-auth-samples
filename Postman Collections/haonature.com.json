@@ -145,7 +145,8 @@
     "EncodeTemplateParameters": true,
     "GenerateExamplesForOptionalFields": false,
     "MultitargetDotnetVersions": false,
-    "BackoffMax": 0.0
+    "BackoffMax": 0.0,
+    "RetryOnTimeout": true
   },
   "Errors": [],
   "TestGenSettings": {
