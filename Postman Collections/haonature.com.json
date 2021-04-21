@@ -164,6 +164,7 @@
     "AllowEmptyTypeAttributesInXsd": false,
     "WrapInputOutputTypesInElementInXsd": false,
     "AddRefSiblingDataInAllOfSchema": false,
-    "EncodeUrlParamsInPostman": true
+    "EncodeUrlParamsInPostman": true,
+    "UseXsdBase64BinaryType": false
   }
 }
