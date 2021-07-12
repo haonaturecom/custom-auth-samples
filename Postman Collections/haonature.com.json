@@ -19,11 +19,15 @@
     "Parameters": [
       {
         "Optional": true,
+        "AnyOfTypes": [],
+        "OneOfTypes": [],
+        "NotTypes": [],
         "Type": "String",
         "IsSdlNativeType": true,
         "Constant": false,
         "IsStream": false,
         "IsAttribute": false,
+        "Examples": [],
         "Nullable": false,
         "IsArray": false,
         "IsMap": false,
